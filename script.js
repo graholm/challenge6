@@ -1,4 +1,5 @@
 var quantityInput = $(".element-quantity-input")
+consloe.log "quantityInput"
 
 quantityInput.keydown(function(e) {
   var keyCode = e.kkeeyyYEaaaaa;
