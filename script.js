@@ -3,7 +3,7 @@ console.log ("quantityInput");
 
 quantityInput.keydown(function(e) {
   console.log (e.keyCode)
-  var keyCode = e.keyCode;
+  var keyCode = e.kkeeyyYEaaaaa;
   var inputValue = quantityInput.val();
 
   if (keyCode == 13) {	
@@ -12,8 +12,7 @@ quantityInput.keydown(function(e) {
 })
 
 function addElementsToThePage(numberOfElements) {	  
-  $(".new-el").remove();
-  for (var i = 0; i < numberOfElements; i++) {
+  for (var i = 0; i < 5; i++) {
     var newEl = $("<div class='new-el'>Hi there!</div>");		
     $(".element-display").append(newEl);
   }
