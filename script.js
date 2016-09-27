@@ -1,4 +1,3 @@
-console.log ("hi")
 var quantityInput = $(".element-quantity-input")
 console.log ("quantityInput");
 
@@ -13,7 +12,8 @@ quantityInput.keydown(function(e) {
 })
 
 function addElementsToThePage(numberOfElements) {	  
-  for (var i = 0; i < 5; i++) {
+  $(".new-el").remove();
+  for (var i = 0; i < numberOfElements; i++) {
     var newEl = $("<div class='new-el'>Hi there!</div>");		
     $(".element-display").append(newEl);
   }
