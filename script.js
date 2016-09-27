@@ -2,7 +2,7 @@ var quantityInput = $(".element-quantity-input")
 console.log ("quantityInput");
 
 quantityInput.keydown(function(e) {
-  console.log (e)
+  console.log (e.keyCode)
   var keyCode = e.kkeeyyYEaaaaa;
   var inputValue = quantityInput.val();
 
